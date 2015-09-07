@@ -62,6 +62,6 @@ You can see the app continues to run after switching to use CoreCLR:
 ![image](images/dnx-trace-coreclr-run.png)
 
 Summary
--------
+---------
 
 Creating and running your first console application on DNX is verysimple, and only requires two files.
