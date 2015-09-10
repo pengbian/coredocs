@@ -6,6 +6,7 @@ Assemblies are used for the programs themselves as well as any dependent librari
 A .NET program can be executed as one of more assemblies, with no other required artifacts, beyond the appropriate .NET runtime.
 Native dependencies, including operating system APIs, are a separate concern and are not contained within the .NET assembly format, although are sometimes described with this format (e.g. WinRT).
 
+![image](images/assembly-headers.png)
 > Each CLI component carries the metadata for declarations, implementations, and references specific to that component.
 > Therefore, the component-specific metadata is referred to as component metadata, and the resulting component is said to be self-describing -- from ECMA 335 I.9.1, Components and assemblies.
 
@@ -30,8 +31,6 @@ Format
 The .NET binary format is based on the Windows [PE file](http://en.wikipedia.org/wiki/Portable_Executable) format.
 In fact, .NET class libraries are conformant Windows PEs, and appear on first glance to be Windows dynamic link libraries (DLLs) or application executables (EXEs).
 This is a very useful characteristic on Windows, where they can masquerade as native executable binaries and get some of the same treatment (e.g. OS load, PE tools).
-
-![image](images/assembly-headers.png)
 
 Assembly Headers Assemblies headers from ECMA 335 II.25.1, Structure of the runtime file format.
 
