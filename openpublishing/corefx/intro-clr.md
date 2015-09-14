@@ -881,3 +881,24 @@ Useful Links
 -   [Wikipedia Entry for the CLR](http://en.wikipedia.org/wiki/Common_Language_Runtime)
 -   [ECMA Standard for the Common Language Infrastructure CLI](dotnet-standards.md)
 -   [.NET Framework Design Guidelines](http://msdn.microsoft.com/en-us/library/ms229042.aspx)
+
+<!-- START: Livefyre Embed -->
+<div id="livefyre-comments"></div>
+<script type="text/javascript" src="http://zor.livefyre.com/wjs/v3.0/javascripts/livefyre.js"></script>
+<script type="text/javascript">
+  (function () {
+    var articleId = fyre.conv.load.makeArticleId(null);
+    fyre.conv.load({}, [{
+      el: 'livefyre-comments',
+      network: "livefyre.com",
+      siteId: "377988",
+      articleId: articleId,
+      signed: false,
+      collectionMeta: {
+        articleId: articleId,
+        url: fyre.conv.load.makeCollectionUrl(),
+      }
+    }], function() {});
+  }());
+</script>
+<!-- END: Livefyre Embed -->
